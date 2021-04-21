@@ -1,0 +1,17 @@
+/** @format */
+
+.Container {
+  background-color: #efefef;
+  /* box-shadow: 3px 3px 3px 3px rgb(0.5, 0.5, 0.5); */
+  border-radius: 15px;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1%;
+  padding-bottom: 0;
+}
+.chipWrapper {
+  margin-right: 1%;
+  margin-bottom: 1%;
+}

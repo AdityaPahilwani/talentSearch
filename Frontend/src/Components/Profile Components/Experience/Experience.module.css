@@ -1,0 +1,23 @@
+/** @format */
+
+.Container {
+  margin-bottom: 3%;
+  padding: 2% 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  color: white;
+  background-color: #1e272e;
+}
+.heading {
+  font-family: "Noto Sans", serif;
+  font-size: 20px;
+  margin: 0;
+}
+.role {
+ font-family: "Open Sans", sans-serif;
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+.duration {
+  font-family: "Open Sans", serif;
+}

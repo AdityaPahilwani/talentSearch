@@ -1,0 +1,44 @@
+/** @format */
+
+.Container {
+
+  margin-top: 2%;
+  /* background-color: tomato; */
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding-top: 1%;
+  font-weight: bold;
+}
+
+.socials {
+  display: flex;
+  margin-left: 3%;
+  justify-content: center;
+}
+.box {
+  /* background-color: #0984e3 ; */
+  padding: 10px 15px;
+  margin-left: 1%;
+  margin-right: 5%;
+}
+
+@media (max-width: 1200px) {
+  .heading {
+    padding-top: 3%;
+    font-size: 1.3rem;
+  }
+  .Container {
+    padding-top: 5%;
+    margin-left: 3%;
+  }
+  .box{
+    margin-right: 1%;
+
+  }
+}

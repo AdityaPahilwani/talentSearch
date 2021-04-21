@@ -1,0 +1,21 @@
+/** @format */
+
+.Container {
+  display: flex;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.flex {
+  display: flex;
+  margin-right: 10px;
+}
+.text {
+  margin-left: 4px;
+  user-select: none
+}
+
+.flex:hover{
+  color: lightsalmon;
+  cursor: pointer;
+}

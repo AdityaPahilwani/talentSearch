@@ -1,0 +1,122 @@
+/** @format */
+
+.Container {
+  display: flex;
+  width: 79vw;
+  background-color: #f6f6f6;
+  padding: 1% 5%;
+  justify-content: space-between;
+  align-items: center;
+  animation: moveDown 0.5s ease-in-out;
+  /* position: fixed; */
+}
+.searchContainer {
+  padding: 1% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  margin-left: 4%;
+  background-color: #f6f6f6;
+  padding: 8px 10px;
+  border: none;
+  width: 20vw;
+}
+.input:focus {
+  border-bottom: 2px solid grey;
+  outline: none;
+}
+
+.btnArea {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  background: transparent;
+  padding: 5px 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 1.3rem;
+}
+.btn:hover {
+  cursor: pointer;
+  border: 1px solid #653ab9;
+  background-color: #653ab9;
+  color: white;
+}
+.btn:focus {
+  outline: none;
+}
+
+.Links {
+  display: flex;
+  margin: 0;
+  width: 100%;
+  list-style: none;
+}
+.link {
+  font-size: 1.3rem;
+  margin-right: 18%;
+}
+.link1 {
+  color: white;
+  font-size: 20px;
+}
+
+.link:hover {
+  cursor: pointer;
+  color: #653ab9;
+}
+
+.current {
+  border-bottom: 2px solid tomato;
+}
+.hamburger {
+  display: none;
+}
+
+.Logoutbtn {
+  padding: 8px 30px;
+  border: 1px solid tomato;
+  background-color: none;
+  cursor: pointer;
+  color: tomato;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.Logoutbtn:hover {
+  background-color: tomato;
+  color: white;
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateY(-5rem);
+  }
+  to {
+    transform: translateY(0rem);
+  }
+}
+/* 
+@media only screen and (max-width: 1200px) {
+  .Links {
+    display: none;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .hamburger {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .lines {
+    background: black;
+    width: 35px;
+    margin-top: 6px;
+    height: 5px;
+  }
+} */

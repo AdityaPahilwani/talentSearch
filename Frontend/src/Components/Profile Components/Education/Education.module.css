@@ -1,0 +1,23 @@
+/** @format */
+
+.Container {
+  margin-bottom: 3%;
+  padding: 2% 2%;
+  margin-left: 3%;
+  margin-right: 5%;
+  color: white;
+  background-color: #324e7b;
+}
+.name {
+  font-size: 20px;
+ font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.type,
+.score,
+.location {
+  font-size: 1.3rem;
+
+  padding: 5px 0;
+}

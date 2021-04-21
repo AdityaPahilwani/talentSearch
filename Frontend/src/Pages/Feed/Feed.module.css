@@ -1,0 +1,47 @@
+/** @format */
+
+.newPost {
+  display: flex;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+.images {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3%;
+  width: 100%;
+}
+.inputBox {
+  border-radius: 15px;
+  background: rgb(235, 235, 235);
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 2px solid rgb(235, 235, 235);
+}
+.input input {
+  border: none;
+
+  border-radius: 15px;
+  background: rgb(235, 235, 235);
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 2px solid rgb(235, 235, 235);
+}
+.input input:focus {
+  outline: none;
+}
+
+.cards {
+  width: 100%;
+  padding: 0% 4%;
+}

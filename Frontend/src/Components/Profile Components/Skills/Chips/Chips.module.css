@@ -1,0 +1,18 @@
+/** @format */
+
+.text {
+  font-size: 1.3rem;
+  padding: 15px;
+  display: flex;
+  margin-bottom: 2%;
+  color: white;
+  border-radius: 10px;
+  background-color: #3b4a6b;
+
+}
+.cross {
+  padding-left: 5%;
+}
+.cross:hover {
+  cursor: pointer;
+}

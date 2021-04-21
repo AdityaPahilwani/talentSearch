@@ -1,0 +1,91 @@
+/** @format */
+
+.Container {
+  position: absolute;
+  z-index: 110;
+  left: 30%;
+  width: 40%;
+  margin-top: 33%;
+  animation: moveDown 0.6s ease-in-out;
+}
+
+.box {
+  z-index: 111;
+  padding: 3% 8%;
+  background-color: #222f3e;
+}
+.cross {
+  float: right;
+}
+.cross:hover {
+  cursor: pointer;
+}
+.link {
+  color: #ee5253;
+  font-weight: bold;
+}
+
+.heading {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+
+  padding-top: 2%;
+}
+
+.text {
+  padding-top: 4%;
+  color: white;
+  font-size: 1.3rem;
+
+}
+
+.input {
+  margin-top: 3%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+
+  width: 100%;
+}
+.input:focus {
+  outline: none;
+}
+.Register {
+  padding-top: 4%;
+  color: white;
+  font-size: 1.2rem;
+
+  text-align: center;
+}
+.btn {
+  display: block;
+  margin: 0 auto;
+  padding: 5px 50px;
+  margin-bottom: 3%;
+  font-size: 1.3rem;
+
+  border: none;
+  margin-top: 3%;
+  border-radius: 10px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #653ab9;
+}
+.btn:focus {
+  outline: none;
+}
+
+@keyframes moveDown {
+  from {
+    transform: translateX(4rem);
+  }
+  to {
+    transform: translateX(0rem);
+  }
+}

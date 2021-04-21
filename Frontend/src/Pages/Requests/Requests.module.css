@@ -1,0 +1,14 @@
+.pageContainer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2%;
+}
+
+.profileCardContainer {
+  margin-top: 1%;
+  width: 30%;
+  border-radius: 0.5em;
+}

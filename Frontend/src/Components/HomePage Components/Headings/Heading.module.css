@@ -1,0 +1,13 @@
+/** @format */
+
+.Heading {
+  text-align: left;
+  font-size: 25px;
+  color: #1e272e;
+ font-family: "Open Sans", sans-serif;
+}
+@media (max-width: 1200px) {
+  .Heading {
+    font-size: 1.3rem;
+  }
+}

@@ -1,0 +1,36 @@
+/** @format */
+
+.container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 1%;
+  flex-direction: row;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  
+}
+.image {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  overflow: 50%;
+  object-fit: cover;
+}
+.textWrapper {
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  font-size: 1.5rem;
+}
+.bio {
+  font-size: 1.2rem;
+  color: gray;
+}

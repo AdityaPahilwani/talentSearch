@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: calc(100%-2%-0.5%);
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 2%;
+  flex-direction: column;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 0.5%;
+  border-radius: 0.5rem;
+}
+.image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  overflow: 50%;
+  object-fit: cover;
+}
+.name {
+  margin-top: 4%;
+  font-size: 1.5rem;
+}
+.btn {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid grey;
+  outline: none;
+  font-size: 1.3rem;
+  width: 100%;
+  margin-top: 4%;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}

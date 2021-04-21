@@ -1,0 +1,134 @@
+
+.Container {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+}
+.center{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  width: 25%;
+}
+.nav {
+  padding: 1.2% 3%;
+  background-color: #f6f6f6;
+  display: flex;
+  color: #0f117a;
+  font-weight: bold;
+  justify-content: flex-end;
+}
+.nav a:hover {
+  color: #ea5455;
+}
+.topContainer {
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 10%;
+}
+.heading {
+  color: #0f117a;
+  font-size: 25px;
+  font-weight: bold;
+}
+.deleteBtn {
+  padding: 10px 30px;
+  font-size: 1.6rem;
+  border: 2px solid #ea2027;
+  color: #ea2027;
+  border-radius: 5px;
+  background: none;
+}
+.deleteBtn:hover {
+  background-color: #ea2027;
+  cursor: pointer;
+  color: white;
+}
+.form {
+  display: flex;
+}
+.bottomContainer {
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 80%;
+  padding: 1% 1%;
+  border: 2px solid black;
+  border-radius: 0.5rem
+}
+.nameContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.image {
+  border-radius: 50%;
+  object-fit: contain;
+}
+.image {
+  height: 150px;
+  width: 150px;
+}
+.updateBtn {
+  margin-top: 5%;
+  display: flex;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.flex {
+  display: flex;
+  margin-bottom: 2%;
+  align-items: center;
+  justify-content: space-between;
+}
+.col {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  margin-top: 2%;
+  background-color: #ebeef1;
+  font-size: 1.2rem;
+  border: none;
+  padding: 1rem;
+}
+.textArea {
+ 
+  padding: 1rem;
+  background-color: #ebeef1;
+  border: none;
+  margin-top: 1%;
+  height: 30vh;
+  resize: none;
+  font-size: 1.2srem;
+}
+
+.input:focus,
+.textArea:focus {
+  outline: none;
+  border: 1px solid #0984e3;
+}
+.skills {
+  margin-top: 2%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.submitBtn {
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  border: 2px solid #00a79d;
+  color: #00a79d;
+  border-radius: 5px;
+  background: none;
+}
+.submitBtn:hover {
+  color: white;
+  border: 2px solid #15cda8;
+  background: #15cda8;
+  cursor: pointer;
+}

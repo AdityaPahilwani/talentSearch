@@ -1,0 +1,113 @@
+/** @format */
+
+.Container {
+  display: flex;
+  justify-items: center;
+  /* margin-left: 15%;
+  margin-right: 15%; */
+  margin: 0.5%;
+  margin-top: 2%;
+  flex-direction: column;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  /* background-color: #fff; */
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 1% 2%;
+
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.options {
+  margin-top: 1%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5%;
+}
+.top img {
+  width: 80px;
+  border-radius: 50%;
+  height: 80px;
+}
+.time {
+  font-size: 14px;
+}
+.Name {
+  margin-left: 3%;
+  font-size: 20px;
+}
+.description {
+  font-size: 1.3rem;
+  line-height: 170%;
+}
+.likeContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: flex-start;
+  padding: 0px 0px;
+}
+.image {
+  width: 100%;
+  height: 250px;
+  margin: 1% 0;
+  border-radius: 10px;
+  overflow: hidden;
+  object-fit: fill;
+}
+.like {
+  display: flex;
+  margin-right: 10px;
+  user-select: none;
+}
+.comments {
+  display: flex;
+  margin-right: 10px;
+  user-select: none;
+}
+.like:hover,
+.comments:hover {
+  text-decoration: underline;
+}
+.CommentsContainer {
+  padding-left: 4%;
+  margin-top: 2%;
+}
+.writeYourCommentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2%;
+
+  height: 50px;
+}
+.inputBox {
+  border: none;
+  border-radius: 15px;
+  background: rgb(235, 235, 235);
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 2px solid rgb(235, 235, 235);
+  width: 80%;
+  height: 100%;
+}
+.btn {
+  background: transparent;
+  width: 15%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 1.3rem;
+  border: 1px solid #653ab9;
+  background-color: #653ab9;
+  color: white;
+}
+.btn:hover {
+  cursor: pointer;
+}

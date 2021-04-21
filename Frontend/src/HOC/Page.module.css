@@ -1,0 +1,21 @@
+/** @format */
+
+.flex {
+  width: 100%;
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.1rem;
+}
+
+.SideBar {
+  overflow: auto;
+  position: sticky;
+  width: 20%;
+  height: 100%;
+  top: 0;
+}
+.children {
+  width: 80%;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.1rem;
+}

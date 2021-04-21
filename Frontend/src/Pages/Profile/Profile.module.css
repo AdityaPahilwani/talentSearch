@@ -1,0 +1,18 @@
+/** @format */
+
+.ExperienceContainer {
+  margin-top: 3%;
+  margin-left: 3%;
+  padding: 10px 20px;
+  margin-bottom: 3%;
+  margin-right: 10%;
+  background-color: #efefef;
+  border-radius: 15px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Padding {
+  padding: 2%; 
+}

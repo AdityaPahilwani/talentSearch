@@ -1,0 +1,67 @@
+/** @format */
+.box {
+  background: white;
+  width: 700px;
+  padding: 3%;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+  margin-top: 2%;
+  display: flex;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2%;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.heading {
+  font-size: 1.3rem;
+  margin: 0;
+  letter-spacing: 1.2px;
+}
+.textArea {
+  margin-top: 3%;
+  font-size: 1.2rem;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  resize: none;
+  height: 40vh;
+  margin-bottom: 2%;
+}
+.textArea:focus {
+  outline: none;
+}
+.cross {
+  margin-left: 8%;
+}
+.cross:hover {
+  cursor: pointer;
+}
+.pic {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.submitContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.image:hover {
+  cursor: pointer;
+}
+.btn {
+  padding: 8px 35px;
+  background-color: #393c83;
+  border: 1px solid #393c83;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+}

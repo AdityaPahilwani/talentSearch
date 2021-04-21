@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+  background-color: white;
+  max-width: 500px;
+  text-align: center;
+}
+.profileImage {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.btn {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 1% 0;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3rem;
+  border-top: 1px solid grey;
+  outline: none;
+}

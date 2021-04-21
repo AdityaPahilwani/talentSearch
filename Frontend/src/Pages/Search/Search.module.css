@@ -1,0 +1,50 @@
+/** @format */
+
+.Container {
+  padding: 3%;
+}
+
+.InputContainer {
+  /* background-color: coral; */
+}
+.options {
+  padding: 8px;
+  border: 1px solid black;
+  font-family: "Open-Sans" sans-serif;
+  font-size: 1.2rem;
+}
+.options:focus {
+  outline: none;
+}
+
+.input {
+  margin: 0 2%;
+  width: 50%;
+  border: 1px solid black;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 8px;
+}
+
+.submitBtn {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 10px 19px;
+}
+.infiteWrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+.searchComponent{
+  
+  width: 50%;
+  padding: 0.5%;
+}

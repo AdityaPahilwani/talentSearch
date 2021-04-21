@@ -1,0 +1,99 @@
+/** @format */
+
+.flex {
+  display: flex;
+  font-size: 2rem;
+}
+
+.card {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  padding: 1% 2%;
+  background-color: white;
+  border: 0.5px solid grey;
+  margin-bottom: 2%;
+  font-size: 1.6rem;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  /* border-radius: 50%; */
+}
+.container {
+  padding: 0 2%;
+}
+
+.heading {
+  /* background-color: tomato; */
+  font-size: 2.4rem;
+}
+.connection {
+  font-size: 1.3rem;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+ font-family: "Open Sans", sans-serif;
+}
+.Link {
+  color: salmon;
+}
+.textContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  justify-items: center;
+}
+.followsYou {
+  font-size: 1.2rem;
+  margin-left: 0.5rem;
+  background-color: #d3d3d3;
+}
+.description {
+  font-size: 1.3rem;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 3% 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btn {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid grey;
+  outline: none;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 1200px) {
+  .flex {
+    flex-direction: column;
+  }
+  .topInfo {
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+  }
+}
