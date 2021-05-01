@@ -27,7 +27,7 @@ const navBar = {
       createUrlPath: Paths.createProfilePath,
     },
     { Icon: GrGroup, title: "Requests", path: Paths.requests },
-    { Icon: MdNotificationsActive, title: "Notifications", path: Paths.temp },
+    // { Icon: MdNotificationsActive, title: "Notifications", path: Paths.temp },
   ],
   // "Other Information": [
   //   { Icon: FcPrivacy, title: "Privacy Policy", path: Paths.temp },

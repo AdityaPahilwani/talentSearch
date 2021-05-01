@@ -16,8 +16,10 @@ import { getProfileData } from "../../commonApollo/Queries/userQuery";
 import { updateUserMutation } from "./apollo/Queries";
 import Chips from "../../Components/Profile Components/Skills/Chips/Chips";
 import { BsCardImage } from "react-icons/bs";
-
+import Paths from "../../Constants/paths";
+import {useHistory} from 'react-router-dom'
 const Settings = () => {
+  const history=useHistory()
   const [newSkill, setnewSkill] = useState("");
   const [dispatched, setdispatched] = useState(false);
   const [updateUser] = useMutation(updateUserMutation);
@@ -93,7 +95,10 @@ const Settings = () => {
         },
       });
       console.log(errors);
-      console.log(data);
+    
+      if(data?.updateUser?.success){
+        history.push(Paths.createProfilePath(profiledata?.getMe.id))
+      }
     } else {
       alert("Passords do not match");
     }
@@ -121,7 +126,7 @@ const Settings = () => {
     return (
       <div className={classes.Container}>
         <div className={classes.nav}>
-          <Link to="/profile">Back to Profile</Link>
+          <Link to={Paths.createProfilePath(profiledata?.getMe.id)}>Back to Profile</Link>
         </div>
         <div className={classes.topContainer}>
           <div className={classes.heading}>Update Basic Details</div>

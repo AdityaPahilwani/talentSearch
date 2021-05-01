@@ -130,7 +130,7 @@ const Feed = () => {
           )}
         </div>
         <Modal displayModal={modal} closeModal={modalHandler}>
-          {profiledata?.getMe && (
+          {modal && (
             <AddPostModalBody
               displayModal={modal}
               closeModal={modalHandler}

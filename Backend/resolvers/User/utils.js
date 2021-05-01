@@ -162,11 +162,11 @@ export const searchUsers = async ({ args, context }) => {
     if (skills?.length > 0) {
       searchObj.skills = { [Op.overlap]: skills };
     }
-
+    console.log(searchObj)
     let res = await USER.findAll({
       offset: pageNo * limit,
       limit: limit,
-      where: { id: { [Op.ne]: ID }, ...searchObj },
+      where: {...searchObj },
     });
     let data = res?.map((item, index) => {
       return { ...item.dataValues };

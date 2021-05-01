@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useReducer } from "react";
+import React, { useReducer, useEffect } from "react";
 import classes from "./AddPostModalBody.module.css";
 import { useMutation } from "@apollo/client";
 import { ImCross } from "react-icons/im";
@@ -29,8 +29,16 @@ const AddPostModalBody = ({ userData, addPost, modalHandler }) => {
       });
     };
   };
+
+  useEffect(() => {
+    console.log("mount", state);
+    return () => {
+      clearData();
+    };
+  }, []);
   const submitHandler = async () => {
     console.log(state);
+
     try {
       const { data } = await createPost({
         variables: {
@@ -55,6 +63,7 @@ const AddPostModalBody = ({ userData, addPost, modalHandler }) => {
           comments: [],
         };
         addPost(data);
+
         modalHandler();
         console.log(data);
       } else {
@@ -63,6 +72,23 @@ const AddPostModalBody = ({ userData, addPost, modalHandler }) => {
     } catch (err) {
       console.log("erro", JSON.stringify(err, null, 2));
     }
+  };
+
+  const clearData = () => {
+    dispatch({
+      type: CHANGE,
+      data: {
+        key: "mediaLink",
+        value: "",
+      },
+    });
+    dispatch({
+      type: CHANGE,
+      data: {
+        key: "description",
+        value: "",
+      },
+    });
   };
   const handleChange = (event) => {
     dispatch({
@@ -73,6 +99,11 @@ const AddPostModalBody = ({ userData, addPost, modalHandler }) => {
       },
     });
   };
+
+  // const closeModal = () => {
+  //   clearData();
+  //   modalHandler();
+  // };
   return (
     <div className={classes.box}>
       <div className={classes.top}>

@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  width: calc(100%-2%-0.5%);
+  width: 100%;
   height: auto;
   justify-content: flex-start;
   align-items: center;
@@ -10,7 +10,7 @@
   flex-direction: column;
   cursor: pointer;
   overflow: hidden;
-  margin: 0.5%;
+  
   border-radius: 0.5rem;
 }
 .image {

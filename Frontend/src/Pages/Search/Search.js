@@ -89,7 +89,7 @@ const Search = () => {
       <div className={classes.Container}>
         <div className={classes.InputContainer}>
           <p>Note: If searching through skills put " " in between</p>
-          <br />
+
           <select
             className={classes.options}
             onChange={changeSearchCriteria}
